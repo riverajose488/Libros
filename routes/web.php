@@ -15,3 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('libros', LibrosController::class);
 Route::view('/', 'index');
+
+Auth::routes();
+
+
+

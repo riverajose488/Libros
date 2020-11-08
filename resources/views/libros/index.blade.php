@@ -5,7 +5,6 @@
     <li> <a href="{{route('libros.show',$libro['id'])}}">
     {{$libro->nombre}}</li>
     
-
     @empty<li>No hay libros para mostrar</li>
 
 @endforelse    

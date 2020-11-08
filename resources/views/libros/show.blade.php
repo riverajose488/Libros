@@ -21,6 +21,7 @@
 	</tr>
 </table>
 
+@auth 
 
 <form method="POST" action="{{route('libros.destroy',$libros->id)}}">
 {{csrf_field()}} 
@@ -31,3 +32,5 @@
 
 
 <a href="{{route('libros.edit', $libros)}}">Editar</a>
+
+@endauth
